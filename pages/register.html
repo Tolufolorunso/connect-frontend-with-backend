@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication App</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/">KinPlus</a>
+        <div class="links">
+          <a href="./register.html">Register</a>
+          <a href="./login.html">Login</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <form id="register">
+        <h1>Register</h1>
+        <p class="form-control">
+          <label for="fullname">Fullname</label>
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Fullname"
+            id="fullname"
+          />
+        </p>
+        <p class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email@yahoo.com"
+            id="email"
+          />
+        </p>
+        <p class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="*******"
+            id="password"
+          />
+        </p>
+        <p class="form-control">
+          <button>Register</button>
+        </p>
+      </form>
+    </main>
+    <script src="../scripts/app.js"></script>
+    <script src="../scripts/register.js"></script>
+  </body>
+</html>
