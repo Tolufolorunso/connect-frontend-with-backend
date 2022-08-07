@@ -25,7 +25,7 @@ function loginUser(event) {
     // console.log(data.user);
     if (data.status) {
       localStorage.setItem('token', data.token);
-      localStorage.setItem('userData', data.user);
+      localStorage.setItem('userData', JSON.stringify(data.user));
       alert(data.message);
       window.location.href = '../pages/secret.html';
     } else {

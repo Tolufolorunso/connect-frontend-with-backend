@@ -2,7 +2,7 @@ const authBtns = document.querySelectorAll('.auth');
 const fullname = document.querySelector('#name');
 
 const token = localStorage.getItem('token');
-
+// console.log(JSON.parse(localStorage.getItem('userData')));
 if (token) {
   authBtns.forEach((el) => {
     el.style.display = 'none';
